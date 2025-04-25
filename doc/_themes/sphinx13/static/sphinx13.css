@@ -722,13 +722,16 @@ then for larger screens align them two per-row. */
 .sphinx-features {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
 }
 .sphinx-feature {
     flex: 1 1 100%;
     margin: 0 !important;
     background-color: white !important;
+    border-color: #ebebeb;
+    font-size: 2em;
+    font-weight: lighter;
 }
 .sphinx-feature p {
     hyphens: none !important;
@@ -736,7 +739,7 @@ then for larger screens align them two per-row. */
 div.sphinx-feature > p.admonition-title {
     background-color: #f7f7f7 !important;
     padding-left: 1rem;
-    font-weight: bold;
+    font-weight: normal;
 }
 div.sphinx-feature > p.admonition-title::before {
     display: none;
